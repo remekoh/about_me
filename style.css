@@ -1,9 +1,15 @@
-  * {
-  /* Layout Declarations */
+html {
   box-sizing: border-box;
+  
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
+/* Custom Styles begin */
 body {
+  margin: 0;
+  padding: 0;
   /* Typography Declarations */
   color: #222222;
   font-size: 1em;
