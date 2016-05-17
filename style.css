@@ -16,9 +16,13 @@ body {
   font-family: "Roboto", "Helvetica Neue", sans-serif;
 }
 
+h1, h2 {
+  font-weight: 100;
+}
+
 a {
   /* Typography Declrations */
-  font-weight: bold;
+  /* font-weight: bold; */
   text-decoration: none;
   color: #669966;
 }
@@ -89,14 +93,14 @@ a:hover {
   /* Layout Declarations */
   margin-top: -0.2em;
   /* Typography Declarations */
-  color: #000;
+  color: #fff;
   font-family: 'Old Standard TT', "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 6em;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  text-shadow: 0px 3px 0px #848484;
+  text-shadow: 0px 3px 0px #000;
 }
 
 .heading {
