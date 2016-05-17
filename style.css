@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  
+
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -70,7 +70,7 @@ a:hover {
   /* Layout Declrations */
   padding: 6em 0;
   /* Appearance Declrations */
-  background-image: url('http://remekoh.io/THINK/images/night_skyline.jpg');
+  background-image: url('images/night_skyline.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   border-top: 1em solid #848484;
