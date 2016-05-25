@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -11,9 +11,9 @@ body {
   margin: 0;
   padding: 0;
   /* Typography Declarations */
-  color: #222222;
+  color: #0D0D0C;
   font-size: 1em;
-  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 h1, h2 {
@@ -24,14 +24,14 @@ a {
   /* Typography Declrations */
   /* font-weight: bold; */
   text-decoration: none;
-  color: #669966;
+  color: #62a75f;
 }
 
 a:hover {
   /* Tyopography Declarations */
   font-weight: bold;
   text-decoration: none;
-  color: #666699;
+  color: #5F62A7;
 }
 
 .masthead,
@@ -85,7 +85,7 @@ a:hover {
   margin-bottom: 0.1em;
   /* Typography Declarations */
   color: #fff;
-  font-family: 'Old Standard TT', Georgia, serif;
+  font-family: "Gentium Book Basic", Georgia, serif;
   font-size: 2em;
 }
 
@@ -94,7 +94,7 @@ a:hover {
   margin-top: -0.2em;
   /* Typography Declarations */
   color: #fff;
-  font-family: 'Old Standard TT', "Helvetica Neue", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 6em;
@@ -113,10 +113,10 @@ a:hover {
   /* Layout Declarations */
   margin: 2em 0 1em 0;
   /* Typography Declarations */
-  color: #996666;
-  font-family: "Roboto", Georgia, serif;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  color: #5F62A7;
+  font-weight: bold;
   font-size: 1.2em;
-  /* font-weight: bold; */
 }
 
 .questions-section > p {
@@ -150,19 +150,22 @@ a:hover {
   margin-right: 1em;
 }
 
-.aspire{
+.aspire {
   text-decoration: underline;
 }
 
-.team{
+.team {
   color: red;
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .masthead {
-    padding:  3em 0;
+    padding: 3em 0;
   }
   .masthead-heading {
     font-size: 3em;
+  }
+  .social > li > a {
+    font-size: 1em;
   }
 }
